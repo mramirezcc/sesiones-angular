@@ -1,8 +1,10 @@
 <router-outlet></router-outlet>
+
 <div class="general">
   <div class="black">
     <h1>{{ title }}</h1>
   </div>
+
   <div class="ash">
     <h2>{{ name }}</h2>
     <h2>{{ email }}</h2>
@@ -16,6 +18,11 @@
       <a href="{{ webpage }}" target="_blank" class="black-text-reference">Visita mi sitio web</a>
     </div>
   </div>
+
+  <form (submit)="newHobby(hobby)">
+    <input #hobby type="text" placeholder="hobby">
+  </form>
+
   <div class="black">
     <h1>{{ title }}</h1>
   </div>
