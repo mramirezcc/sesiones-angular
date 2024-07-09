@@ -10,10 +10,10 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'my-app';
-  name: String;
-  email: String;
-  webpage: String;
-  hobbies: String[];
+  name: string;
+  email: string;
+  webpage: string;
+  hobbies: string[];
 
   constructor(){
     console.log("Contructor executing...");
