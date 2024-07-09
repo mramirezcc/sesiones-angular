@@ -1,0 +1,16 @@
+.black {
+    background-color: black;
+    color: white;
+}
+
+.ash{
+    background-color: #eee;
+    color: black;
+}
+
+.component2{
+    background-color: #44f;
+    color: #f44;
+    color-interpolation-filters: white;
+    padding: 20px;
+}
